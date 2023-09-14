@@ -17,6 +17,7 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, 'public/build/index.html'))
 })
 
+
 app.listen(PORT, () => {
     console.log('sunjuhyeon.cafe24app.com 구동완료!')
 })

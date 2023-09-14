@@ -1,23 +1,17 @@
 var express = require('express');
-var mysql = require('mysql');
 var router = express.Router();
-var dbinfo = require('../data/datacontact.json');  //모듈 뺀 나머지는 무조건 상대경로로
+var tableselect = require('./contactable')  //모듈 뺀 나머지는 무조건 상대경로로
 
-var connection = mysql.createConnection(dbinfo)
+router.use(express.urlencoded({extended : true}))
 
-connection.connect();
+router.get('/', (req, res, next) => {
+    var bo_table = req.query.tablenm;
 
-connection.query('SELECT * from ongadam_insta', (error, rows, fields) => {
-    if (error) throw error;
-    
-    router.get('/', (req, res) => {
+    req.body.bo_table = bo_table;
 
-        res.send(rows);
-
-    })
-});
-
-connection.end();
+    router.use('/', tableselect);
+    next('route')
+})
 
 
 // 리액트에서 axios 요청 주소 /data 가 된다는 뜻임.
