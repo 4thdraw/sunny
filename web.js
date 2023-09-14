@@ -13,10 +13,15 @@ app.use(express.static(path.join(__dirname, 'public/build/')))
 app.use('/data', api)
 
 // 도메인만 쳐도 리액트 첫페이지 등장하게 하는 명령
-app.get('/', function(req, res){
+app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'public/build/index.html'))
 })
 
+app.use((req, res) => {
+    res.status(404).sendFile(path.join(__dirname, 'public/nopage.html'))
+}
+
+)
 
 app.listen(PORT, () => {
     console.log('sunjuhyeon.cafe24app.com 구동완료!')
