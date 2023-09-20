@@ -618,7 +618,8 @@ body {
 
                     .popup {
                         background-color: black !important;
-
+                        position: relative;
+                        z-index: 1000000;
                         .popupclose {
                             background-image: url(/img/XbuttonWhite.png);
                             background-position: center;

@@ -488,6 +488,8 @@ body #contents #about #aboutinsta .sectioncontainer .swiper .swiper-wrapper .swi
 }
 body #contents #about #aboutinsta .sectioncontainer .popup {
   background-color: black !important;
+  position: relative;
+  z-index: 1000000;
 }
 body #contents #about #aboutinsta .sectioncontainer .popup .popupclose {
   background-image: url(/img/XbuttonWhite.png);
