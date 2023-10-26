@@ -4,6 +4,8 @@ const app = express();
 const api = require('./api/api')
 const PORT = process.env.PORT || 8007;
 
+const kint = require('./project/kint')
+
 // 리액트 경로 잡아주기.
 // 실제로 존재하는 public/build/라는 폴더를 주소창에서는 안보이고
 // 루트디렉트리로 세팅하는 것임.
@@ -12,6 +14,7 @@ app.use(express.static(path.join(__dirname, 'public/build/')))
 
 app.use('/data', api)
 
+app.use('/kint', express.static(path.join(__dirname, 'kint/build')));
 // 도메인만 쳐도 리액트 첫페이지 등장하게 하는 명령
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'public/build/index.html'))

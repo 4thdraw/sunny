@@ -1,0 +1,500 @@
+{
+    "head":{
+        "logo":"/kint/img/logo.png",
+        "home":"",
+        "navi":[
+            {
+                "title":"New",
+                "link":"#new"
+            },
+            {
+                "title":"Best",
+                "link":"#best"
+            },
+            {
+                "title":"Thema",
+                "link":"#thema"
+            },
+            {
+                "title":"Event",
+                "link":"#event"
+            },
+            {
+                "title":"Review",
+                "link":"#review"
+            }
+        ]
+    },
+    "content":{
+        "mainvideo":{
+            "pc" : "/kint/video/kint_film.mp4",
+            "mo" : "/kint/video/kint_film_mo.mp4"
+        },
+        "mainslide":[
+            {
+                "slideimg":{
+                    "img":"/kint/img/mainslide1.png",
+                    "link":""
+                },
+                "slidetxt":{
+                    "title":"슬라이드1",
+                    "contents":"설명입니다."
+                }
+            },
+            {
+                "slideimg":{
+                    "img":"/kint/img/mainslide2.jpeg",
+                    "link":""
+                },
+                "slidetxt":{
+                    "title":"슬라이드2",
+                    "contents":"설명입니다."
+                }
+            },
+            {
+                "slideimg":{
+                    "img":"/kint/img/mainslide3.jpeg",
+                    "link":""
+                },
+                "slidetxt":{
+                    "title":"슬라이드3",
+                    "contents":"설명입니다."
+                }
+            },
+            {
+                "slideimg":{
+                    "img":"/img/mainslide5.jpeg",
+                    "link":""
+                },
+                "slidetxt":{
+                    "title":"슬라이드4",
+                    "contents":"설명입니다."
+                }
+            },
+            {
+                "slideimg":{
+                    "img":"/kint/img/mainslide4.jpeg",
+                    "link":""
+                },
+                "slidetxt":{
+                    "title":"슬라이드5",
+                    "contents":"설명입니다."
+                }
+            }
+        ],
+        "new" : [
+            {
+                "thumb":"/kint/img/1111.jpeg",
+                "src":"/kint/img/1-1.jpeg",
+                "category":"Moissanite",
+                "title":"1캐럿 베이직 목걸이",
+                "price":84900
+            },
+            {
+                "thumb":"/kint/img/2222.jpeg",
+                "src":"/kint/img/2-1.jpeg",
+                "category":"Moissanite",
+                "title":"스터드 드롭 귀걸이",
+                "price":67900
+                
+            },
+            {
+                "thumb":"/kint/img/3333.jpeg",
+                "src":"/kint/img/3-1.jpeg",
+                "category":"Moissanite",
+                "title":"베이직 팔찌",
+                "price":73000
+            },
+            {
+                "thumb":"/kint/img/4444.jpeg",
+                "src":"/kint/img/4-1.jpeg",
+                "category":"Moissanite",
+                "title":"테니스 팔찌",
+                "price":198000
+            }
+        ],
+        "best":[
+            {
+                "src":"/kint/img/best1.jpeg",
+                "category":"",
+                "title":"",
+                "price":0,
+                "cls":"category neck"
+            },
+            {
+                "src":"/kint/img/best1-1.png",
+                "category":"[오늘도착]",
+                "title":"스톤 물방울 목걸이",
+                "price":166000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best1-2.png",
+                "category":"[오늘도착]",
+                "title":"데일리 초승달 목걸이",
+                "price":168900,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best1-3.png",
+                "category":"[오늘도착]",
+                "title":"장미 플라워 목걸이",
+                "price":219000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best1-4.jpeg",
+                "category":"[오늘도착]",
+                "title":"연장 체인",
+                "price":39000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best1-5.jpeg",
+                "category":"[오늘도착]",
+                "title":"데일리 월계수 목걸이",
+                "price":223000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best2.png",
+                "category":"",
+                "title":"",
+                "price":0,
+                "cls":"category ear"
+            },
+            {
+                "src":"/kint/img/best2-1.png",
+                "category":"[오늘도착]",
+                "title":"심플 스터드 귀걸이",
+                "price":23000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best2-2.png",
+                "category":"[오늘도착]",
+                "title":"하트 스터드 귀걸이",
+                "price":24000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best2-3.jpeg",
+                "category":"[오늘도착]",
+                "title":"귀걸이 골드 클러치(한쌍)",
+                "price":22000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best2-4.png",
+                "category":"[오늘도착]",
+                "title":"심플 볼 귀걸이",
+                "price":31000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best2-5.jpeg",
+                "category":"[오늘도착]",
+                "title":"데일리 벚꽃 귀걸이",
+                "price":117000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best3.jpeg",
+                "category":"",
+                "title":"",
+                "price":0,
+                "cls":"category hand"
+            },
+            {
+                "src":"/kint/img/best3-1.png",
+                "category":"[오늘도착]",
+                "title":"열손가락 반지",
+                "price":41000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best3-2.png",
+                "category":"[오늘도착]",
+                "title":"데일리 레이어드 반지",
+                "price":35000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best3-3.jpeg",
+                "category":"[오늘도착]",
+                "title":"클래식 볼륨 반지",
+                "price":62000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best3-4.png",
+                "category":"[오늘도착]",
+                "title":"데일리 레이어드 체인 반지",
+                "price":105000,
+                "cls":"list"
+            },
+            {
+                "src":"/kint/img/best3-5.png",
+                "category":"[오늘도착]",
+                "title":"데일리 볼 체인 반지",
+                "price":111000,
+                "cls":"list"
+            }
+        ],
+        "thema":{
+            "themalist":[
+                {
+                   "title":"오르빗",
+                   "name":"first" ,
+                   "cls":"on"
+                },
+                {
+                   "title":"러브모먼츠",
+                   "name":"second",
+                   "cls":""
+
+                },
+                {
+                   "title":"러브락",
+                   "name":"third",
+                   "cls":""
+
+                },
+                {
+                   "title":"플라워포유",
+                   "name":"fourth",
+                   "cls":""
+                }
+            ],
+            "list":{
+                "orbit":{
+                    "banner" : "/kint/img/or_banner.jpeg",
+                    "detail" : 
+                    [
+                        {
+                            "src":"/kint/img/or_1.jpeg",
+                            "title":"14K 18K 오르빗 케레스 247",
+                            "price":360000,
+                            "discount":396000
+                        },
+                        {
+                            "src":"/kint/img/or_2.jpeg",
+                            "title":"14K 18K 오르빗 스페이스 233",
+                            "price":255000,
+                            "discount":349000
+                        },
+                        {
+                            "src":"/kint/img/or_3.jpeg",
+                            "title":"14K 18K 오르빗 플래닛 300",
+                            "price":464000,
+                            "discount":692000
+                        },
+                        {
+                            "src":"/kint/img/or_4.jpeg",
+                            "title":"14K 18K 오르빗 플래닛 304",
+                            "price":630000,
+                            "discount":810000
+                        },
+                        {
+                            "src":"/kint/img/or_5.jpeg",
+                            "title":"14K 18K 오르빗 코멧 228",
+                            "price":337000,
+                            "discount":505000
+                        },
+                        {
+                            "src":"/kint/img/or_6.jpeg",
+                            "title":"14K 18K 오르빗 케레스 248",
+                            "price":282000,
+                            "discount":423000
+                        }
+                    ]
+                },
+                "moment":{
+                    "banner" : "/kint/img/mo_banner.jpeg",
+                    "detail" : 
+                    [
+                        {
+                            "src":"/kint/img/mo_1.jpeg",
+                            "title":"14K 18K 러브 모먼츠 스파클링 목걸이",
+                            "price":224000,
+                            "discount":336000
+                        },
+                        {
+                            "src":"/kint/img/mo_2.jpeg",
+                            "title":"14K 18K 러브 모먼츠 스위트 목걸이",
+                            "price":317000,
+                            "discount":468000
+                        },
+                        {
+                            "src":"/kint/img/mo_3.jpeg",
+                            "title":"14K 18K 러브 모먼츠 블루밍 목걸이",
+                            "price":365000,
+                            "discount":397000
+                        },
+                        {
+                            "src":"/kint/img/mo_4.jpeg",
+                            "title":"14K 18K 러브 모먼츠 트레져 목걸이",
+                            "price":199000,
+                            "discount":298000
+                        },
+                        {
+                            "src":"/kint/img/mo_5.jpeg",
+                            "title":"14K 18K 러브 모먼츠 스파클링 귀걸이",
+                            "price":157000,
+                            "discount":235000
+                        },
+                        {
+                            "src":"/kint/img/mo_6.jpeg",
+                            "title":"14K 18K 러브 모먼츠 인사이드 목걸이",
+                            "price":275000,
+                            "discount":412000
+                        }
+                    ]
+                },
+                
+                "love" : {
+                    "banner" : "/kint/img/lov_banner.jpeg",
+                    "detail" : 
+                    [
+                        {
+                            "src":"/kint/img/lov_1.jpeg",
+                            "title":"14K 18K 유니크 자물쇠 귀걸이",
+                            "price":199000,
+                            "discount":298000
+                        },
+                        {
+                            "src":"/kint/img/lov_2.jpeg",
+                            "title":"14K 18K 스퀘어 엣지 커팅 자물쇠 롱 목걸이 S",
+                            "price":297000,
+                            "discount":445000
+                        },
+                        {
+                            "src":"/kint/img/lov_3.jpeg",
+                            "title":"14K 18K 라운드 베이직 팔찌",
+                            "price":320000,
+                            "discount":400000
+                        },
+                        {
+                            "src":"/kint/img/lov_4.jpeg",
+                            "title":"14K 18K 열쇠 스톤 팔찌",
+                            "price":205000,
+                            "discount":307000
+                        },
+                        {
+                            "src":"/kint/img/lov_5.jpeg",
+                            "title":"14K 18K 유니크 자물쇠 스톤 목걸이",
+                            "price":560000,
+                            "discount":700000
+                        },
+                        {
+                            "src":"/kint/img/lov_6.jpeg",
+                            "title":"14K 18K 열쇠 베이직 목걸이",
+                            "price":396000,
+                            "discount":494000
+                        }
+                    ]
+                },
+                "flower" : {
+                    "banner" : "/kint/img/flo_banner.jpeg",
+                    "detail" :
+                    [
+                        {
+                            "src":"/kint/img/flo_1.jpeg",
+                            "title":"14K 18K 플로라 장미 팔찌",
+                            "price":219000,
+                            "discount":328000
+                        },
+                        {
+                            "src":"/kint/img/flo_2.jpeg",
+                            "title":"14K 18K 장미 플라워 팔찌",
+                            "price":205000,
+                            "discount":307000
+                        },
+                        {
+                            "src":"/kint/img/flo_3.jpeg",
+                            "title":"14K 18K 코튼 볼륨 플라워 목걸이",
+                            "price":169000,
+                            "discount":253000
+                        },
+                        {
+                            "src":"/kint/img/flo_4.jpeg",
+                            "title":"14K 18K 팬지 플라워 목걸이",
+                            "price":215000,
+                            "discount":322000
+                        },
+                        {
+                            "src":"/kint/img/flo_5.jpeg",
+                            "title":"14K 18K 스위트 하트 장미 목걸이",
+                            "price":199000,
+                            "discount":298000
+                        },
+                        {
+                            "src":"/kint/img/flo_6.jpeg",
+                            "title":"14K 18K 킨트 로즈버드 클래식 목걸이",
+                            "price":241000,
+                            "discount":335000
+                        }
+                    ]
+                }
+            }
+        },
+        "event" : [
+            {
+                "src" : "/kint/img/event1.jpeg",
+                "subtitle" : "서울 전 지역, 경기 일부 지역 <strong>오늘 도착<strong>",
+                "title" : "<strong>오늘 도착<strong> 서비스 진행중!<br><strong>오늘<strong> 주문하고 <strong>오늘<strong> 받아보자!",
+                "button" : "오늘 제품 받으러 가기"
+            },
+            {
+                "src" : "/kint/img/event2.jpeg",
+                "subtitle" : "보석함 카테고리 <strong>OPEN EVENT!<strong>",
+                "title" : "보석함 <strong>각인 무료!<strong>",
+                "button" : "보석함 구매하러 가기"
+            },
+            {
+                "src" : "/kint/img/event3.jpeg",
+                "subtitle" : "KINT Ambassador 1기 모집",
+                "title" : "<strong>신상 주얼리<strong>가 <strong>무료!<strong><br>킨트 주얼리<strong>체험단 모집!<strong>",
+                "button" : "체험단 신청 바로가기"
+            }
+        ],
+        "review" : [
+            {
+                "backgroundcls":"reviewbg1",
+                "src":"/kint/img/review1.png",
+                "title":"성공적인 프로포즈...",
+                "content":"성공적인 프로포즈... 감사합니다. 반지도 예쁘고 배송도 빨랐습니다!!"
+            },
+            {
+                "backgroundcls":"reviewbg2",
+                "src":"/kint/img/review2.png",
+                "title":"여자친구에게 서프라이즈 성공",
+                "content":"여자친구 선물로 준건데 진짜 너무너무 이쁘고 문의도 답장 빠르게 해주시고 배송도 정말 너무너무 빨랐어요 최고에요~~"
+            },
+            {
+                "backgroundcls":"reviewbg3",
+                "src":"/kint/img/review3.png",
+                "title":"데일리로 착용 굿",
+                "content":"데일리로 착용하기 좋아요 생각했던것보다 크기도 크고 침이 길어서 살이 눌리지 않습니다~ 아주 좋아요"
+            },
+            {
+                "backgroundcls":"reviewbg1",
+                "src":"/kint/img/review1.png",
+                "title":"성공적인 프로포즈...",
+                "content":"성공적인 프로포즈... 감사합니다. 반지도 예쁘고 배송도 빨랐습니다!!"
+            },
+            {
+                "backgroundcls":"reviewbg2",
+                "src":"/kint/img/review2.png",
+                "title":"여자친구에게 서프라이즈 성공",
+                "content":"여자친구 선물로 준건데 진짜 너무너무 이쁘고 문의도 답장 빠르게 해주시고 배송도 정말 너무너무 빨랐어요 최고에요~~"
+            },
+            {
+                "backgroundcls":"reviewbg3",
+                "src":"/kint/img/review3.png",
+                "title":"데일리로 착용 굿",
+                "content":"데일리로 착용하기 좋아요 생각했던것보다 크기도 크고 침이 길어서 살이 눌리지 않습니다~ 아주 좋아요"
+            }
+        ]
+    }
+}
